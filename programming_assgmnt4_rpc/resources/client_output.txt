@@ -1,0 +1,404 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=65099:/Applications/IntelliJ IDEA.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/tools.jar:/Users/alsenydiallo/IdeaProjects/programming_assgmnt4_rpc/out/production/programming_assgmnt4_rpc:/Users/alsenydiallo/.m2/repository/com/linecorp/armeria/armeria/0.79.0/armeria-0.79.0.jar:/Users/alsenydiallo/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.8/jackson-annotations-2.9.8.jar:/Users/alsenydiallo/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/Users/alsenydiallo/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/Users/alsenydiallo/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/alsenydiallo/.m2/repository/io/micrometer/micrometer-core/1.1.2/micrometer-core-1.1.2.jar:/Users/alsenydiallo/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.jar:/Users/alsenydiallo/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/alsenydiallo/.m2/repository/io/netty/netty-codec-haproxy/4.1.32.Final/netty-codec-haproxy-4.1.32.Final.jar:/Users/alsenydiallo/.m2/repository/io/netty/netty-codec/4.1.32.Final/netty-codec-4.1.32.Final.jar:/Users/alsenydiallo/.m2/repository/io/netty/netty-codec-http2/4.1.32.Final/netty-codec-http2-4.1.32.Final.jar:/Users/alsenydiallo/.m2/repository/io/netty/netty-codec-http/4.1.32.Final/netty-codec-http-4.1.32.Final.jar:/Users/alsenydiallo/.m2/repository/io/netty/netty-handler/4.1.32.Final/netty-handler-4.1.32.Final.jar:/Users/alsenydiallo/.m2/repository/io/netty/netty-resolver-dns/4.1.32.Final/netty-resolver-dns-4.1.32.Final.jar:/Users/alsenydiallo/.m2/repository/io/netty/netty-resolver/4.1.32.Final/netty-resolver-4.1.32.Final.jar:/Users/alsenydiallo/.m2/repository/io/netty/netty-codec-dns/4.1.32.Final/netty-codec-dns-4.1.32.Final.jar:/Users/alsenydiallo/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.20.Final/netty-tcnative-boringssl-static-2.0.20.Final.jar:/Users/alsenydiallo/.m2/repository/io/netty/netty-transport/4.1.32.Final/netty-transport-4.1.32.Final.jar:/Users/alsenydiallo/.m2/repository/io/netty/netty-buffer/4.1.32.Final/netty-buffer-4.1.32.Final.jar:/Users/alsenydiallo/.m2/repository/io/netty/netty-transport-native-epoll/4.1.32.Final/netty-transport-native-epoll-4.1.32.Final.jar:/Users/alsenydiallo/.m2/repository/io/netty/netty-common/4.1.32.Final/netty-common-4.1.32.Final.jar:/Users/alsenydiallo/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.32.Final/netty-transport-native-unix-common-4.1.32.Final.jar:/Users/alsenydiallo/.m2/repository/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar:/Users/alsenydiallo/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar MyClient
+objc[23916]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/bin/java (0x109db04c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x109df14e0). One of the two will be used. Which one is undefined.
+Client serching for word >> A
+Remote server response:
+A  priori  —adj. 1 (of reasoning) from causes to effects; deductive. 2 (of concepts etc.) Logically independent of experience; not derived from experience. 3 assumed without investigation (an a priori conjecture). —adv. 1 deductively. 2 as far as one knows. [latin, = from what is before]
+
+Client serching for word >> a
+Remote server response:
+a  priori  —adj. 1 (of reasoning) from causes to effects; deductive. 2 (of concepts etc.) Logically independent of experience; not derived from experience. 3 assumed without investigation (an a priori conjecture). —adv. 1 deductively. 2 as far as one knows. [latin, = from what is before]
+
+Client serching for word >> aa
+Remote server response:
+aa   abbr. 1 automobile association. 2 alcoholics anonymous. 3 anti-aircraft.
+
+Client serching for word >> aal
+Remote server response:
+aal null
+
+Client serching for word >> aalii
+Remote server response:
+aalii null
+
+Client serching for word >> aam
+Remote server response:
+aam null
+
+Client serching for word >> Aani
+Remote server response:
+Aani null
+
+Client serching for word >> aardvark
+Remote server response:
+aardvark   n. Mammal with a tubular snout and a long tongue, feeding on termites. [afrikaans]
+
+Client serching for word >> aardwolf
+Remote server response:
+aardwolf null
+
+Client serching for word >> Aaron
+Remote server response:
+Aaron null
+
+Client serching for word >> Aaronic
+Remote server response:
+Aaronic null
+
+Client serching for word >> Aaronical
+Remote server response:
+Aaronical null
+
+Client serching for word >> Aaronite
+Remote server response:
+Aaronite null
+
+Client serching for word >> Aaronitic
+Remote server response:
+Aaronitic null
+
+Client serching for word >> Aaru
+Remote server response:
+Aaru null
+
+Client serching for word >> Ab
+Remote server response:
+Ab null
+
+Client serching for word >> aba
+Remote server response:
+aba null
+
+Client serching for word >> Ababdeh
+Remote server response:
+Ababdeh null
+
+Client serching for word >> Ababua
+Remote server response:
+Ababua null
+
+Client serching for word >> abac
+Remote server response:
+abac null
+
+Client serching for word >> abaca
+Remote server response:
+abaca null
+
+Client serching for word >> abacate
+Remote server response:
+abacate null
+
+Client serching for word >> abacay
+Remote server response:
+abacay null
+
+Client serching for word >> abacinate
+Remote server response:
+abacinate null
+
+Client serching for word >> abacination
+Remote server response:
+abacination null
+
+Client serching for word >> abaciscus
+Remote server response:
+abaciscus null
+
+Client serching for word >> abacist
+Remote server response:
+abacist null
+
+Client serching for word >> aback
+Remote server response:
+aback   adv.  take aback surprise, disconcert. [old english: related to *a2]
+
+Client serching for word >> abactinal
+Remote server response:
+abactinal null
+
+Client serching for word >> abactinally
+Remote server response:
+abactinally null
+
+Client serching for word >> abaction
+Remote server response:
+abaction null
+
+Client serching for word >> abactor
+Remote server response:
+abactor null
+
+Client serching for word >> abaculus
+Remote server response:
+abaculus null
+
+Client serching for word >> abacus
+Remote server response:
+abacus   n. (pl. -cuses) 1 frame with wires along which beads are slid for calculating. 2 archit. Flat slab on top of a capital. [latin from greek from hebrew]
+
+Client serching for word >> Abadite
+Remote server response:
+Abadite null
+
+Client serching for word >> abaff
+Remote server response:
+abaff null
+
+Client serching for word >> abaft
+Remote server response:
+abaft   naut. —adv. In the stern half of a ship. —prep. Nearer the stern than. [from *a2, -baft: see *aft]
+
+Client serching for word >> abaisance
+Remote server response:
+abaisance null
+
+Client serching for word >> abaiser
+Remote server response:
+abaiser null
+
+Client serching for word >> abaissed
+Remote server response:
+abaissed null
+
+Client serching for word >> abalienate
+Remote server response:
+abalienate null
+
+Client serching for word >> abalienation
+Remote server response:
+abalienation null
+
+Client serching for word >> abalone
+Remote server response:
+abalone null
+
+Client serching for word >> Abama
+Remote server response:
+Abama null
+
+Client serching for word >> abampere
+Remote server response:
+abampere null
+
+Client serching for word >> abandon
+Remote server response:
+abandon   —v. 1 give up. 2 forsake, desert. 3 (often foll. By to; often refl.) Yield to a passion, another's control, etc. —n. Freedom from inhibitions.  abandonment n. [french: related to *ad-, *ban]
+
+Client serching for word >> abandonable
+Remote server response:
+abandonable null
+
+Client serching for word >> abandoned
+Remote server response:
+abandoned   adj. 1 deserted, forsaken. 2 unrestrained, profligate.
+
+Client serching for word >> abandonedly
+Remote server response:
+abandonedly null
+
+Client serching for word >> abandonee
+Remote server response:
+abandonee null
+
+Client serching for word >> abandoner
+Remote server response:
+abandoner null
+
+Client serching for word >> abandonment
+Remote server response:
+abandonment null
+
+Client serching for word >> Abanic
+Remote server response:
+Abanic null
+
+Client serching for word >> Abantes
+Remote server response:
+Abantes null
+
+Client serching for word >> abaptiston
+Remote server response:
+abaptiston null
+
+Client serching for word >> Abarambo
+Remote server response:
+Abarambo null
+
+Client serching for word >> Abaris
+Remote server response:
+Abaris null
+
+Client serching for word >> abarthrosis
+Remote server response:
+abarthrosis null
+
+Client serching for word >> abarticular
+Remote server response:
+abarticular null
+
+Client serching for word >> abarticulation
+Remote server response:
+abarticulation null
+
+Client serching for word >> abas
+Remote server response:
+abas null
+
+Client serching for word >> abase
+Remote server response:
+abase   v. (-sing) (also refl.) Humiliate, degrade.  abasement n. [french: related to *ad-, *base2]
+
+Client serching for word >> abased
+Remote server response:
+abased null
+
+Client serching for word >> abasedly
+Remote server response:
+abasedly null
+
+Client serching for word >> abasedness
+Remote server response:
+abasedness null
+
+Client serching for word >> abasement
+Remote server response:
+abasement null
+
+Client serching for word >> abaser
+Remote server response:
+abaser null
+
+Client serching for word >> Abasgi
+Remote server response:
+Abasgi null
+
+Client serching for word >> abash
+Remote server response:
+abash null
+
+Client serching for word >> abashed
+Remote server response:
+abashed   predic. Adj. Embarrassed, disconcerted. [french es- *ex-1, baïr astound]
+
+Client serching for word >> abashedly
+Remote server response:
+abashedly null
+
+Client serching for word >> abashedness
+Remote server response:
+abashedness null
+
+Client serching for word >> abashless
+Remote server response:
+abashless null
+
+Client serching for word >> abashlessly
+Remote server response:
+abashlessly null
+
+Client serching for word >> abashment
+Remote server response:
+abashment null
+
+Client serching for word >> abasia
+Remote server response:
+abasia null
+
+Client serching for word >> abasic
+Remote server response:
+abasic null
+
+Client serching for word >> abask
+Remote server response:
+abask null
+
+Client serching for word >> Abassin
+Remote server response:
+Abassin null
+
+Client serching for word >> abastardize
+Remote server response:
+abastardize null
+
+Client serching for word >> abatable
+Remote server response:
+abatable null
+
+Client serching for word >> abate
+Remote server response:
+abate   v. (-ting) make or become less strong etc.; diminish.  abatement n. [french abatre from latin batt(u)o beat]
+
+Client serching for word >> abatement
+Remote server response:
+abatement null
+
+Client serching for word >> abater
+Remote server response:
+abater null
+
+Client serching for word >> abatis
+Remote server response:
+abatis null
+
+Client serching for word >> abatised
+Remote server response:
+abatised null
+
+Client serching for word >> abaton
+Remote server response:
+abaton null
+
+Client serching for word >> abator
+Remote server response:
+abator null
+
+Client serching for word >> abattoir
+Remote server response:
+abattoir   n. Slaughterhouse. [french abatre fell, as *abate]
+
+Client serching for word >> Abatua
+Remote server response:
+Abatua null
+
+Client serching for word >> abature
+Remote server response:
+abature null
+
+Client serching for word >> abave
+Remote server response:
+abave null
+
+Client serching for word >> abaxial
+Remote server response:
+abaxial null
+
+Client serching for word >> abaxile
+Remote server response:
+abaxile null
+
+Client serching for word >> abaze
+Remote server response:
+abaze null
+
+Client serching for word >> abb
+Remote server response:
+abb null
+
+Client serching for word >> Abba
+Remote server response:
+Abba null
+
+Client serching for word >> abbacomes
+Remote server response:
+abbacomes null
+
+Client serching for word >> abbacy
+Remote server response:
+abbacy   n. (pl. -ies) office or jurisdiction of an abbot or abbess. [latin: related to *abbot]
+
+Client serching for word >> Abbadide
+Remote server response:
+Abbadide null
+
+
+Process finished with exit code 0
